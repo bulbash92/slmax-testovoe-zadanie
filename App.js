@@ -36,32 +36,6 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  container: {
-    flex: 1,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  header: {
-    height: 200,
-    backgroundColor: '#10637D',
-    position: 'absolute',
-    top: 50,
-    // transform: "matrix(-1, 0, 0, 1, 0, 0)",
-  },
 });
 
 export default App;

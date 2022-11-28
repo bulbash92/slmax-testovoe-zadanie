@@ -19,7 +19,6 @@ const Notes = ({title, description, onRemoveHandler, id}) => {
     setShowTimer(true);
   };
 
-  // let interval;
   const timerHandler = () => {
     ref.current = setInterval(() => {
       setCounter(counter => counter - 1);
